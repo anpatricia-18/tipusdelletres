@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans_SemiCondensed-SemiBoldItalic.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Estil per a les imatges */
+img {
+    width: 100%;               /* Canvia la mida de les imatges per ajustar-les a la seva contenidora */
+    height: auto;             /* Manté la proporció de l'imatge */
+    margin: 10px 0;          /* Afegir marges superior i inferior */
+    border-radius: 8px;      /* Aplicar corners arrodonits a les imatges */
+}
+
+/* Estil per als títols */
+h1, h2, h3 {
+    color: #111;              /* Canvi de color dels títols */
+    font-weight: bold;          /* Fer els títols més gruixuts */
+    line-height: 24px;         /* Fixa l'altura de la línia en 24 píxels */
+
+}
+
+h1 {
+    font-size: 2em;           /* Ajustar la mida de la font per a H1 */
+}
+
+h2 {
+    font-size: 1.5em;         /* Ajustar la mida de la font per a H2 */
+}
+
+h3 {
+    font-size: 1.5em;         /* Ajustar la mida de la font per a H3 */
+}
